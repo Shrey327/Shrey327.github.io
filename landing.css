@@ -1,0 +1,1125 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+
+
+* {
+  margin: 0px 0px 0px 0px;
+}
+
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  color: #f7f7f7 !important;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.proza-libre-regular {
+  font-family: "Proza Libre", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* from here style for feature section starts*/
+.col-md-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.col-md-7 h2 {
+  position: relative;
+  font-size: 2.5rem;
+  text-align: left;
+  /* font-size: 4vh; */
+  /* font-weight: 350 !important; */
+}
+
+.col-md-7 p {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.lead {
+  position: relative;
+  left: 3%;
+  top: 3%;
+  font-size: 1.5rem;
+  /* hyphens: auto; */
+}
+
+.r1 {
+  width: 70%;
+  position: relative;
+  left: 20%;
+}
+
+
+.r2 {
+  width: 70%;
+  position: relative;
+  left: 10%;
+  padding-top: 3%;
+  text-align: justify !important;
+}
+
+
+.m1 {
+  position: relative;
+  left: 20%;
+  width: 70%;
+}
+
+.r3-cont h2{
+  position: relative;
+  left: 19%;
+}
+
+.plastic {
+  /* width: 70%; */
+  /* margin-left: 10%; */
+  position: relative;
+  left: 10%;
+  padding-top: 3%;
+  /* right: 5%; */
+}
+
+.picalgae {
+  height: 75%;
+  width: 80%;
+  position: relative;
+  left: 8%;
+  top: 1%;
+}
+
+.r3_image {
+  position: relative;
+  width: 100%;
+  left: 8%;
+  height: 75%;
+  top: -6%;
+}
+
+.r4-para {
+  width: 70%;
+  position: relative;
+  left: 6%;
+  padding-top: 3%;
+  /* text-align: justify !important; */
+}
+
+
+.r4-2 h2 {
+  margin-left: 6%;
+}
+
+.r2-3 h2{
+  position: relative;
+  left: 10%;
+}
+
+.r1-powerhouse h2 {
+  position: relative;
+  left: 20%;
+}
+
+.add-box p {
+  width: 70%;
+  ;
+  /* margin-left: 10%; */
+}
+
+.add-box h2 {
+  margin-left: 7%;
+}
+
+.add-cont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+
+}
+
+.r3-cont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.lead {
+   word-spacing: 0.05cap; 
+  text-align: left;
+  text-align: justify !important;
+
+
+}
+@media only screen and (max-width: 1368px){
+  .lead {
+  hyphens: auto;
+word-spacing: 0%;
+  }
+}
+@media only screen and (max-width: 768px){
+  .lead {
+  hyphens: auto;
+word-spacing: 0%;
+  }
+}
+
+.r4-cont {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.r1-powerhouse {
+  /* margin-top: -13%; */
+  margin-bottom: 100px;
+}
+
+.intro {
+  text-align: justify;
+}
+
+.ad-img{
+ position: relative;
+ /* top: 10%; */
+ height: 100%;
+}
+
+.pic-intro {
+  margin-left: 10%;
+  height: 110%;
+  width: 170%;
+}
+
+.pic-sleep1 {
+  height: 70%;
+  width: 80%;
+  position: relative;
+  right: 14%;
+  /* top: 1%; */
+}
+
+.precise-img {
+  height: 75%;
+  width: 100%;
+  position: relative;
+  right: 14%;
+  top: -4%;
+}
+
+/*here the style for feature section ends*/
+
+/* Header begins */
+
+
+/* Header ends */
+
+
+/* Hero section start*/
+/* .h-screen bg-cover bg-center flex items-center{ */
+
+
+.logo {
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+
+
+}
+
+.main {
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.img {
+  margin: auto;
+  display: block;
+  margin-top: 9vh;
+  padding-bottom: 10%;
+}
+
+.main_text {
+  margin-top: 20px;
+}
+
+.luk {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.luk>h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Proza Libre', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 15px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.497);
+}
+
+.luk>pre {
+  font-family: 'Proza Libre', sans-serif;
+  color: #828282;
+  font-size: 24;
+}
+
+.luk>button {
+
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.luk>button:active {
+  background: #1a1a1a;
+}
+
+.carousel-item img {
+  width: 65%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel-image-container {
+  border-radius: 15px;
+  /* Adjust the value as needed for the desired curve */
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  /* Adjust the shadow properties as needed */
+  justify-content: center;
+}
+
+.carousel-inner img {
+  border-radius: 20px;
+  /* Match the border radius of the container */
+  justify-content: center;
+}
+
+/*hero section end*/
+
+/*footer section start*/
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color:#010105f8;
+  height: 50px;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  opacity: 75%;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+}
+
+.nav-links {
+  /* display: flex; */
+  justify-content: flex-end;
+  width: auto;
+}
+
+.navbar-logo img {
+  /* Set the height of the image to be 100% of the navbar height */
+  height: 100%;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* Ensures the navbar takes the full width */
+  padding: 0 20px;
+  /* Optional: add padding for better spacing */
+}
+
+.navbar-logo img {
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+.nav-links a {
+  color: #ffffff;
+  text-align: center;
+  padding: 1vh 1.5vh;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+.nav-links a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #1b1b1b7f;
+}
+
+/* The .footer-main class sets the styles for the main footer */
+.footer-main {
+  background: #000000;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+  color: #ffffff;
+  padding: 3% 5%;
+
+}
+
+/* The .footer-icons class sets the styles for the container of the icons in the footer */
+.footer-icons a i {
+  color: #ffffff;
+  font-size: 170%;
+}
+
+
+/* The .footer-icons a i class sets the styles for the icons in the footer */
+.footer-icons a i {
+  color: #ffffff;
+  font-size: 170%;
+  /* Makes the icons white */
+}
+
+/* The .footer-icons a:nth-child(1):hover i class changes the color of the first icon in the footer when it's hovered over */
+.footer-icons a:nth-child(1):hover i {
+  color: #1877F2;
+}
+
+/* The .footer-icons a:nth-child(2):hover i class changes the color of the second icon in the footer when it's hovered over */
+.footer-icons a:nth-child(2):hover i {
+  color: #1DA1F2;
+}
+
+/* The .footer-icons a:nth-child(3):hover i class changes the color of the third icon in the footer when it's hovered over */
+.footer-icons a:nth-child(3):hover i {
+  color: #C13584;
+}
+
+/* The .footer-icons a:nth-child(4):hover i class changes the color of the fourth icon in the footer when it's hovered over */
+.footer-icons a:nth-child(4):hover i {
+  color: #0A66C2;
+}
+
+/* The .footer-space class allows the element to take up the remaining space in the footer */
+.footer-space {
+  flex-grow: 1;
+}
+
+
+/* The .footer-space class allows the element to take up the remaining space in the footer */
+.footer-content {
+  display: flex;
+}
+
+.footer-heading {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  color: #eee;
+  font-weight: 800;
+  font-size: 120%;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* The .footer-heading class sets the styles for the heading in the footer */
+.footer-details {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  color: #eee;
+  font-weight: 100;
+  font-size: 100%;
+  text-align: left;
+  margin: 10px;
+}
+
+/* The .footer-details:hover class changes the color and cursor when the footer details are hovered over */
+.footer-details:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* The .footer-img class sets the styles for the image in the footer */
+.footer-img {
+  width: 20%;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.img-div {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.footer-box4 {
+  width: 80%;
+  text-align: left;
+  position: relative;
+  padding: 7%;
+  }
+  .footer-box5{
+  
+      width: 80%; 
+      text-align: left;
+  }
+
+* {
+  position: relative;
+}
+
+&::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* background-image: url("./images/b1.jpg"); */
+  background-size: cover;
+  background-position: top center;
+}
+
+/* CSS for Desktop */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .nav-links { */
+  /* display: flex; */
+  /* gap: 20px; */
+/* } */
+
+/* CSS for Tablet */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: row;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* CSS for Mobile */
+@media screen and (max-width: 480px) {
+  .navbar-container {
+    flex-direction: row;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* CSS for Desktop */
+/* .feature-section .col-md-7 {
+    /* Your desktop styles here */
+/* } */
+
+.feature-section .lead {
+  font-size: 1.25rem;
+}
+
+/* CSS for Tablet */
+@media (max-width: 992px) {
+  .feature-section .col-md-7 {
+    /* Your tablet styles here */
+    order: 1;
+  }
+
+  .feature-section .col-md-5 {
+    order: 2;
+  }
+
+  .feature-section .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+  .feature-section .col-md-7 {
+    /* Your mobile styles here */
+    order: 1;
+  }
+
+  .feature-section .col-md-5 {
+    order: 2;
+  }
+
+  .feature-section .lead {
+    font-size: 1rem;
+    position: relative;
+    left: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro{
+    position: relative !important;
+    left: 3% !important;
+  }
+}
+/* CSS for Desktop */
+.feature-section img {
+  width: 100%;
+  top: -5%;
+}
+
+/* CSS for Tablet */
+@media (max-width: 992px) {
+  .feature-section img {
+    width: 80%;
+    /* Adjust as needed */
+    display: block;
+    position: relative;
+    left: 20%;
+    top: 10%;
+  }
+}
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+  .feature-section img {
+    width: 60%;
+    /* Adjust as needed */
+    display: block;
+  }
+}
+
+/* CSS for Desktop */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center;
+}
+
+/* CSS for Tablet */
+@media (max-width: 992px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center;
+    text-justify: inter-word;
+  }
+}
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: left;
+    text-justify: inter-word;
+  }
+}
+
+/* CSS for all screens */
+.feature-section p {
+  font-size: 20px;
+  /* Adjust as needed */
+}
+
+/* CSS for Desktop */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center;
+}
+
+/* CSS for Tablet */
+@media (max-width: 992px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center;
+    text-justify: inter-word;
+  }
+}
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center;
+    text-justify: inter-word;
+  }
+}
+
+@media (max-width: 992px) {
+  .feature-section h2 {
+    text-align: center;
+    text-justify: inter-word;
+    margin: 0 auto 20px;
+    /* Adjust as needed */
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  .feature-section p {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+}
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+  .feature-section h2 {
+    text-align: center;
+    text-justify: inter-word;
+    margin: 0 auto 20px;
+    /* Adjust as needed */
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+
+  .feature-section p {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+}
+
+/* CSS for all screens */
+.feature-section p,
+.r3-cont p,
+.r1, .r2{
+  font-size: 20px;
+  /* Adjust as needed */
+}
+
+/* CSS for Desktop */
+.feature-section h2,
+.feature-section p,
+.r3-cont h2,
+.r3-cont p,
+.r1-powerhouse h2,
+.r1-powerhouse p,
+.r2-cont p {
+  text-align: left;
+}
+
+/* CSS for Tablet */
+@media (max-width: 992px) {
+
+  .feature-section h2,
+  .r3-cont h2,
+  .r1-powerhouse h2, .r2-cont h2 {
+    text-align: center;
+    text-justify: inter-word;
+    position: relative;
+    left: 1%;
+    line-height: 1.5;
+  }
+
+  .feature-section p,
+  .r3-cont p,
+  .r1-powerhouse p, .r2-cont p {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+}
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+
+  .feature-section h2,
+  .r3-cont h2,
+  .r1-powerhouse h2, .r2-cont h2 {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+
+  .feature-section p,
+  .r3-cont p,
+  .r1-powerhouse p, .r2-cont p {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+    position: relative;
+    left: 15%;
+  }
+}
+
+/* CSS for mobile*/
+@media (max-width: 768px) {
+  .r1 {
+    margin-right: 2rem;
+  }
+}
+
+/* CSS for all screens */
+.feature-section p,
+.r3-cont p,
+.r1-powerhouse p, .r2-cont p {
+  font-size: 20px;
+  /* Adjust as needed */
+}
+
+/* CSS for Desktop */
+.feature-section h2,
+.feature-section p,
+.r3-cont h2,
+.r3-cont p,
+.r1-powerhouse h2,
+.r1-powerhouse p,
+
+.r2-cont p {
+  text-align: left;
+}
+
+/* CSS for Tablet */
+@media (max-width: 992px) {
+
+  .feature-section h2,
+  .r3-cont h2,
+  .r1-powerhouse h2,
+  .r2-cont h2 {
+    text-align: center;
+    text-justify: inter-word;
+    position: relative;
+    left: 1%;
+    line-height: 1.5;
+  }
+
+  .feature-section p,
+  .r3-cont p,
+  .r1-powerhouse p,
+  .r2-cont p {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+} 
+
+@media (max-width: 768px){
+
+  .plastic{
+    font-size: 16px !important;
+    position: relative;
+    left: 15%;
+  }
+  
+}
+
+@media (max-width: 768px){
+
+  .r3{
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 768px){
+
+  .r3_image{
+    /* width: 60%; */
+    position: relative;
+    left: 20%;
+    top: 15%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px){
+
+  .r2{
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 768px){
+
+  .precise-img{
+    /* margin-left: 20%; */
+    width: 60%;
+    position: relative;
+    left: 19%;
+  }
+}
+
+
+
+.add-3 {
+  position: relative;
+    right: 6%;
+}
+
+/* @media(min-width : 1025px) and (max-width : 1200px){
+  .add-3 h2{
+    margin-left: 7% !important;
+  }
+} */
+
+/* CSS for Mobile */
+@media (max-width: 768px) {
+
+  .feature-section h2,
+  .r3-cont h2,
+  .r1-powerhouse h2,
+  .r2-cont h2 {
+    text-align: center;
+    text-justify: inter-word;
+    position: relative;
+    left: 1%;
+    line-height: 1.5;
+  }
+
+  .feature-section p,
+  .r3-cont p,
+  .r1-powerhouse p,
+  .r2-cont p {
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .r4-para{
+    position: relative;
+    left: 15%;
+  }
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 65%;
+  padding-left: 0;
+  gap: 25px;
+  /* Reduce the gap between the icons */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  text-align: right;
+  margin-top: 10px;
+  /* Push the content away */
+}
+
+.footer-box4,
+.footer-box5 {
+  margin: 10px 0;
+}
+
+/* CSS for tablet */
+@media (max-width: 768px) {
+  .luk {
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .luk>h1 {
+    font-size: 1.5em; /* Adjusted font size for tablet */
+    padding-top: 5%;
+    padding-bottom: 15px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.497);
+  }
+
+  .luk>pre {
+    font-size: 1em; /* Adjusted font size for tablet */
+    padding: 0 10px; /* Adjusted padding for tablet */
+    word-wrap: break-word; /* Allow word wrapping on tablets */
+    white-space: normal; /* Ensures normal white space handling */
+  }
+
+  .luk>button {
+    padding: 12px 24px; /* Adjusted button padding for tablet */
+    margin-bottom: 30px; /* Reduced margin for better spacing */
+  }
+}
+
+/* CSS for mobile */
+@media (max-width: 480px) {
+  .luk>h1 {
+    font-size: 1.2em; /* Adjusted font size for mobile */
+  }
+
+  .luk>pre {
+    font-size: 0.9em; /* Adjusted font size for mobile */
+    padding: 0 5px; /* Adjusted padding for mobile */
+    word-wrap: break-word; /* Allow word wrapping on mobile */
+    white-space: normal; /* Ensures normal white space handling */
+  }
+
+  .luk>button {
+    padding: 8px 16px; /* Adjusted button padding for mobile */
+    margin-bottom: 20px; /* Reduced margin for better spacing on mobile */
+  }
+}
+@media only screen and (max-width: 1368px){
+  html,
+  body{
+  width:100%;
+  overflow-x:hidden;
+  }
+}
+@media only screen and (max-width: 768px){
+  html,
+  body{
+  width:100%;
+  overflow-x:hidden;
+  }
+  
+}
+
+.intro {
+  position: relative;
+  left: 0%;
+}
+.change_sp {
+  position: relative;
+
+}
+.gg {
+  position: relative;
+  right: 4%;
+}
+.r4 img {
+  height: 100%;
+  width: 40%;
+}
+ul.list-group {
+  width: 30%;
+  margin: auto;
+}
+.cards_1 {
+  gap: 2%;
+  text-align: center;
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  position: relative;
+  margin-top: -10%;
+}
+.ylink {
+  align-items: center;
+  position: relative;
+  left: 8%;
+}
+h1.display-5.fw-bold.text-body-emphasis {
+  color: white !important;
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.p-3 {
+  background-color: rgb(41, 41, 41);
+  color: #c2c2c2f8;
+  border-radius: 10px;
+  margin-top: 3%;
+  /* gap: 2%; */
+}
+.ose {
+  margin-top: -8%;
+  margin-bottom: 15%;
+  gap: 10px;
+}
+
+.ose>h1 {
+    margin-bottom: 3%;
+}
+.row.featurette.r2-cont {
+  position: relative;
+  margin-top: 5%;
+}
+.card.card-body {
+  background: rgba(16, 16, 16, 0.959);
+  width:75%;
+}
+p.d-inline-flex.gap-1 {
+  position: relative;
+  left: 20%;
+}
+
+div#collapseExample {
+  position: relative;
+  left: 20%;
+}
+

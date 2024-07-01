@@ -1,0 +1,10 @@
+:root {
+  --small-text-font-family: "Inter", Helvetica;
+  --small-text-font-weight: 500;
+  --small-text-font-size: 16px;
+  --small-text-letter-spacing: 0px;
+  --small-text-line-height: 150%;
+  --small-text-font-style: normal;
+  --variable-collection-spacing-s: 24px;
+  --variable-collection-spacing-XS: 8px;
+}
