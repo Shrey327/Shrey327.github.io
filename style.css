@@ -5,12 +5,12 @@ body {
     color: #f7f7f7 !important;
 }
 
-header {
+/* header {
     background-color: #333;
     color: #fff;
     padding: 15px;
-    text-align: center;
-}
+    text-align: center; */
+/* } */
 
 main {
     padding: 20px;
@@ -210,3 +210,46 @@ ul {
         width: 80%; 
         text-align: left;
     }
+   
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } */
+        .login-container {
+          background-color: white;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          width: 50%;
+          align-items: center;
+          position: relative;
+          left: 25%;
+          margin-top: 15%;
+          /* height: 50vh; */
+      }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #000000;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(34, 34, 34);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+        }
+    
