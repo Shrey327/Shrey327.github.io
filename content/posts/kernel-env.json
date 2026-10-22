@@ -1,0 +1,11 @@
+{
+  "title": "KernelEnv: the evaluator is part of the experiment",
+  "description": "Verifier contracts, GPU timing and the limits of a small kernel reinforcement learning evaluation.",
+  "date": "2026-10-22",
+  "tags": [
+    "reinforcement-learning",
+    "gpu-kernels"
+  ],
+  "slug": "kernel-env",
+  "body": "kernel-env.html"
+}

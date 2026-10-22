@@ -1,0 +1,8 @@
+dist/
+preview/
+review/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*

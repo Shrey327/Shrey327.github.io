@@ -1,0 +1,11 @@
+{
+  "title": "Building InferenceX without trusting the first benchmark",
+  "description": "KV caching, batching and CUDA graphs through their workloads, baselines and failed predictions.",
+  "date": "2026-10-22",
+  "tags": [
+    "inference",
+    "measurement"
+  ],
+  "slug": "inferencex",
+  "body": "inferencex.html"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "GameX: state after the first generated answer",
+  "description": "Approval, revision semantics, partial success and durability in an AI creative workflow.",
+  "date": "2026-10-22",
+  "tags": [
+    "agents",
+    "software-design"
+  ],
+  "slug": "gamex",
+  "body": "gamex.html"
+}
