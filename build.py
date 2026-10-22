@@ -47,8 +47,13 @@ def build(preview=False, base_path='', site_url=None):
     posts.sort(key=lambda x: x['date'], reverse=True)
     drafts = [dict(json.loads(p.read_text()), draft=True) for p in sorted((ROOT/'content/drafts').glob('*.json'))] if preview else []
     visible_posts = posts + drafts
+    def meta(p):
+        d = datetime.fromisoformat(p['date'])
+        body = (ROOT/'content'/('drafts' if p.get('draft') else 'posts')/p['body']).read_text()
+        minutes = max(1, round(len(re.findall(r'\w+', re.sub(r'<[^>]+>', ' ', body))) / 220))
+        return f'{"Unpublished draft · revised " if p.get("draft") else ""}<time datetime="{esc(p["date"])}">{d:%b} {d.day}, {d.year}</time> · {minutes} min read · {esc(", ".join(p["tags"]))}'
     def listing(items):
-        return '<ul class="plain-list">' + ''.join(f'<li><a href="{base}{"drafts" if p.get("draft") else "posts"}/{esc(p["slug"])}/">{esc(p["title"])}</a><p class="article-meta">{"Unpublished draft · revised " if p.get("draft") else ""}{esc(p["date"])}</p><p>{esc(p["description"])}</p></li>' for p in items) + '</ul>' if items else ''
+        return '<ul class="plain-list">' + ''.join(f'<li><a href="{base}{"drafts" if p.get("draft") else "posts"}/{esc(p["slug"])}/">{esc(p["title"])}</a><p class="article-meta">{meta(p)}</p><p>{esc(p["description"])}</p></li>' for p in items) + '</ul>' if items else ''
     for p in posts:
         if not re.fullmatch(r'[a-z0-9-]+', p['slug']):
             raise ValueError('Post slugs must use lowercase letters, numbers or hyphens')
