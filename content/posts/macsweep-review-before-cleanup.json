@@ -1,0 +1,11 @@
+{
+  "title": "MacSweep: seeing what takes space before deleting it",
+  "description": "A local macOS cleanup tool built around file context, review and Trash-first removal.",
+  "date": "2026-11-16",
+  "tags": [
+    "developer-tools",
+    "software-design"
+  ],
+  "slug": "macsweep-review-before-cleanup",
+  "body": "macsweep-review-before-cleanup.html"
+}

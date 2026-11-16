@@ -1,0 +1,11 @@
+{
+  "title": "Bugger: practicing the part after the code breaks",
+  "description": "Turning real failure patterns into focused debugging exercises with reproduction, repair and regression tests.",
+  "date": "2026-11-16",
+  "tags": [
+    "developer-tools",
+    "software-design"
+  ],
+  "slug": "bugger-debugging-practice",
+  "body": "bugger-debugging-practice.html"
+}

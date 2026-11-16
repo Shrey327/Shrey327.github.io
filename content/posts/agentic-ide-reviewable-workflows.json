@@ -1,0 +1,12 @@
+{
+  "title": "Agentic IDE: keeping edits, runs and evidence in one workspace",
+  "description": "A local-first AI engineering workspace built around reviewable changes, explicit model capabilities and inspectable runs.",
+  "date": "2026-11-16",
+  "tags": [
+    "agents",
+    "developer-tools",
+    "software-design"
+  ],
+  "slug": "agentic-ide-reviewable-workflows",
+  "body": "agentic-ide-reviewable-workflows.html"
+}

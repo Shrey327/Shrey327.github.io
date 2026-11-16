@@ -1,0 +1,12 @@
+{
+  "title": "miniRL: grading an agent by the database it leaves behind",
+  "description": "An accounts-payable evaluation sandbox with synthetic data, constrained tools and independent final-state checks.",
+  "date": "2026-11-16",
+  "tags": [
+    "agents",
+    "evaluation",
+    "reinforcement-learning"
+  ],
+  "slug": "minirl-final-state-evaluation",
+  "body": "minirl-final-state-evaluation.html"
+}
